@@ -12,22 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
   </head>
   <body>
+    <script type="text/babel" src="scripts/example.jsx"></script>
     <div id="content"></div>
-    <script type="text/babel">
-      // tutorial1.js
-      var CommentBox = React.createClass({
-        render: function() {
-          return (
-            <div className="commentBox">
-              Hello, world! I am a CommentBox.
-            </div>
-          );
-        }
-      });
-      ReactDOM.render(
-        <CommentBox />,
-        document.getElementById('content')
-      );
-    </script>
   </body>
 </html>
